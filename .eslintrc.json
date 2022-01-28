@@ -15,9 +15,11 @@
         "createDefaultProgram": true
       },
       "extends": [
+        "eslint:recommended",
         "plugin:@angular-eslint/recommended",
+        "plugin:@typescript-eslint/recommended",
         "plugin:@angular-eslint/template/process-inline-templates",
-        "plugin:prettier/recommended"
+        "prettier"
       ],
       "rules": {
         "@angular-eslint/directive-selector": [
@@ -35,7 +37,8 @@
             "prefix": "app",
             "style": "kebab-case"
           }
-        ]
+        ],
+        "@angular-eslint/no-empty-lifecycle-method": ["off"]
       }
     },
     {
@@ -44,7 +47,7 @@
       ],
       "extends": [
         "plugin:@angular-eslint/template/recommended",
-        "plugin:prettier/recommended"
+        "prettier"
       ],
       "rules": {}
     }

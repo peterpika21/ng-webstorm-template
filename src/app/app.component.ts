@@ -6,6 +6,5 @@ import { Component } from "@angular/core";
   styleUrls: ["./app.component.scss"]
 })
 export class AppComponent {
-  title =
-    "ng-webstorm-teplateng-webstorm-templateng-webstorm-templateng-webstorm-templateng-webstorm-templateng-webstorm-templateng-webstorm-templateng-webstorm-templateng-webstorm-templateng-webstorm-templateng-webstorm-templateng-webstorm-templateng-webstorm-templateng-webstorm-templateng-webstorm-templateng-webstorm-templateng-webstorm-templateng-webstorm-templateng-webstorm-templateng-webstorm-templateng-webstorm-templateng-webstorm-templateng-webstorm-templateng-webstorm-templateng-webstorm-templateng-webstorm-templateng-webstorm-templateng-webstorm-templateng-webstorm-templateng-webstorm-templateng-webstorm-templateng-webstorm-templateng-webstorm-templateng-webstorm-templateng-webstorm-template";
+  title = "gn-lint";
 }

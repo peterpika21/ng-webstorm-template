@@ -3,30 +3,11 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "ng-webstorm-template": {
+    "gn-lint": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
-          "style": "scss",
-          "skipTests": true
-        },
-        "@schematics/angular:class": {
-          "skipTests": true
-        },
-        "@schematics/angular:directive": {
-          "skipTests": true
-        },
-        "@schematics/angular:guard": {
-          "skipTests": true
-        },
-        "@schematics/angular:interceptor": {
-          "skipTests": true
-        },
-        "@schematics/angular:pipe": {
-          "skipTests": true
-        },
-        "@schematics/angular:service": {
-          "skipTests": true
+          "style": "scss"
         },
         "@schematics/angular:application": {
           "strict": true
@@ -39,7 +20,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/ng-webstorm-template",
+            "outputPath": "dist/gn-lint",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -91,10 +72,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "ng-webstorm-template:build:production"
+              "browserTarget": "gn-lint:build:production"
             },
             "development": {
-              "browserTarget": "ng-webstorm-template:build:development"
+              "browserTarget": "gn-lint:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -102,7 +83,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "ng-webstorm-template:build"
+            "browserTarget": "gn-lint:build"
           }
         },
         "test": {
@@ -135,7 +116,7 @@
       }
     }
   },
-  "defaultProject": "ng-webstorm-template",
+  "defaultProject": "gn-lint",
   "cli": {
     "defaultCollection": "@angular-eslint/schematics"
   }
